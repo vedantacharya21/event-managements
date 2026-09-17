@@ -1,0 +1,81 @@
+# ============================================================
+# EventHub - College Event Management Portal
+# Requirements / Dependencies
+# ============================================================
+
+# ------------------------------------------------------------
+# RUNTIME ENVIRONMENT
+# ------------------------------------------------------------
+# PHP >= 7.4 (tested up to PHP 8.2)
+# MySQL >= 5.7 or MariaDB >= 10.4
+# Apache 2.4+ / Nginx 1.18+ / PHP Built-in Server
+# Composer (optional, for future dependencies)
+
+# ------------------------------------------------------------
+# PHP EXTENSIONS (built-in, no install needed on XAMPP/WAMP)
+# ------------------------------------------------------------
+mysqli          # MySQL database connection
+mbstring        # Multibyte string handling (UTF-8)
+fileinfo        # MIME type detection for uploads
+session         # Session management
+json            # (Used implicitly by PHP internals)
+openssl         # Password hashing (bcrypt)
+
+# ------------------------------------------------------------
+# PHP LIBRARIES
+# ------------------------------------------------------------
+# None - this project uses only PHP core functions
+# No Composer packages required
+
+# ------------------------------------------------------------
+# FRONTEND
+# ------------------------------------------------------------
+# No build step needed
+# No npm / node_modules required
+# Vanilla HTML5, CSS3, JavaScript (ES6)
+
+# ------------------------------------------------------------
+# CDN DEPENDENCIES (loaded at runtime, no install)
+# ------------------------------------------------------------
+# Google Fonts:
+#   - Bricolage Grotesque
+#   - Public Sans
+# https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Public+Sans
+
+# ------------------------------------------------------------
+# TOOLS RECOMMENDED FOR DEVELOPMENT
+# ------------------------------------------------------------
+# XAMPP 8.x              - Local PHP + MySQL + Apache stack
+# phpMyAdmin             - Database GUI
+# VS Code                - Code editor
+# MySQL Workbench        - ER diagram generation
+# dbdiagram.io           - Online ER diagram tool
+# Postman                - API testing (if extended)
+
+# ------------------------------------------------------------
+# BROWSER SUPPORT
+# ------------------------------------------------------------
+# Chrome   >= 90
+# Firefox  >= 88
+# Edge     >= 90
+# Safari   >= 14
+
+# ------------------------------------------------------------
+# SERVER REQUIREMENTS
+# ------------------------------------------------------------
+# Disk space:     50 MB (excluding uploads)
+# Uploads folder: Unbounded (each poster <= 5 MB)
+# Memory:         128 MB minimum
+# PHP max upload: 5 MB (upload_max_filesize = 5M)
+
+# ------------------------------------------------------------
+# INSTALLATION COMMANDS (for reference)
+# ------------------------------------------------------------
+# On Debian/Ubuntu:
+#   sudo apt install php php-mysqli php-mbstring php-fileinfo mysql-server
+#
+# On macOS (Homebrew):
+#   brew install php mysql
+#
+# On Windows:
+#   Install XAMPP from https://www.apachefriends.org/
